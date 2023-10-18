@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_quotes_day"
+            android:icon="@drawable/ic_home"
+            android:title="Quotes of the day" />
+        <item
+            android:id="@+id/nav_love_quotes"
+            android:icon="@drawable/ic_fire"
+            android:title="Love quotes" />
+        <item
+            android:id="@+id/nav_fave_quotes"
+            android:icon="@drawable/ic_fave"
+            android:title="Fave quotes" />
+    </group>
+</menu>
